@@ -15,3 +15,9 @@ print("Tamaño en memoria de la matriz 3d: " , tresd_array.nbytes)
 print("Itemsize en memoria de la matriz 3d: " , tresd_array.itemsize)
 
 dosd_array = tresd_array.reshape((10,3000))
+
+def dataframe(dosd_array):
+    dosd_data = pd.DataFrame(dosd_array)
+    return dosd_data
+
+x = dataframe(dosd_array)
