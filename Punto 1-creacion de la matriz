@@ -21,3 +21,23 @@ def dataframe(dosd_array):
     return dosd_data
 
 x = dataframe(dosd_array)
+
+def suma(arreglo,axis)
+    sumado = np.add(arreglo,axis=axis)
+    return sumado
+
+def resta(arreglo,axis)
+    restado = np.subtract(arreglo,axis=axis)
+    return restado
+
+def multiplicacion(arreglo,axis)
+    multi = np.multiply(arreglo,axis=axis)
+    return multi
+
+def division(arreglo,axis)
+    div = np.divide(arreglo,axis=axis)
+    return div
+
+def desviacion(arreglo,axis)
+    desv = np.std(arreglo,axis=axis)
+    return desv
