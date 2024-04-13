@@ -13,3 +13,5 @@ print("Tipo de variable de la matriz 3d: " , tresd_array.dtype)
 print("Numero de dimensiones de la matriz 3d: " , tresd_array.ndim)
 print("Tamaño en memoria de la matriz 3d: " , tresd_array.nbytes)
 print("Itemsize en memoria de la matriz 3d: " , tresd_array.itemsize)
+
+dosd_array = tresd_array.reshape((10,3000))
