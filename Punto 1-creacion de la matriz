@@ -6,3 +6,10 @@ import scipy.io as sio
 array = np.random.rand(20, 50, 30, 40)
 
 tresd_array = array[:,:,:,0].copy()
+
+print("Forma de la matriz 3d: " , tresd_array.shape)
+print("Tamaño de la matriz 3d: " , tresd_array.size)
+print("Tipo de variable de la matriz 3d: " , tresd_array.dtype)
+print("Numero de dimensiones de la matriz 3d: " , tresd_array.ndim)
+print("Tamaño en memoria de la matriz 3d: " , tresd_array.nbytes)
+print("Itemsize en memoria de la matriz 3d: " , tresd_array.itemsize)
